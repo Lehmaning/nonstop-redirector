@@ -1,0 +1,74 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2026-05-08T13:18:30.913Z",
+    "redirects": [
+        {
+            "description": "【国产】傻逼知乎",
+            "exampleUrl": "https://link.zhihu.com/?target=https%3A//build.nvidia.com/models",
+            "exampleResult": "https://build.nvidia.com/models",
+            "error": null,
+            "includePattern": "https://link.zhihu.com/?target=*",
+            "excludePattern": "",
+            "patternDesc": "知乎",
+            "redirectUrl": "$1",
+            "patternType": "W",
+            "processMatches": "urlDecode",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "【国产】傻逼萌娘百科",
+            "exampleUrl": "https://zh.moegirl.org.cn/%E5%90%B4%E7%BB%87%E4%BA%9A%E5%88%87%E5%A4%A7%E5%BF%BD%E6%82%A0",
+            "exampleResult": "https://moegirl.uk/%E5%90%B4%E7%BB%87%E4%BA%9A%E5%88%87%E5%A4%A7%E5%BF%BD%E6%82%A0",
+            "error": null,
+            "includePattern": "https://zh.moegirl.org.cn/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://moegirl.uk/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "【国产】傻逼b站 死吗b23.tv",
+            "exampleUrl": "https://b23.tv/av114514",
+            "exampleResult": "https://b23.icu/av114514",
+            "error": null,
+            "includePattern": "https://b23.tv/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://b23.icu/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "【网站修复】nga",
+            "exampleUrl": "https://bbs.nga.cn/read.php?tid=46645764&rand=639",
+            "exampleResult": "https://nga.178.com/read.php?tid=46645764",
+            "error": null,
+            "includePattern": "https://bbs.nga.cn/*&rand=*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://nga.178.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
