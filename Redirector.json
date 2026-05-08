@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.5.3",
-    "createdAt": "2026-05-08T13:29:17.422Z",
+    "createdAt": "2026-05-08T13:34:26.635Z",
     "redirects": [
         {
             "description": "【国产|跳转】傻逼知乎",
@@ -56,9 +56,9 @@
         {
             "description": "【网站修复】nga",
             "exampleUrl": "https://bbs.nga.cn/read.php?tid=46645764&rand=639",
-            "exampleResult": "https://nga.178.com/read.php?tid=46645764",
+            "exampleResult": "https://nga.178.com/read.php?tid=46645764&rand=639",
             "error": null,
-            "includePattern": "https://bbs.nga.cn/*&rand=*",
+            "includePattern": "https://bbs.nga.cn/*",
             "excludePattern": "",
             "patternDesc": "",
             "redirectUrl": "https://nga.178.com/$1",
